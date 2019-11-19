@@ -1,0 +1,28 @@
+{
+  "name": "first-angular-project",
+  "version": "1.0.0",
+  "description": "first-angular-project",
+  "main": "karma.conf.js",
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoee/first-angular-project.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoee/first-angular-project/issues"
+  },
+  "homepage": "https://github.com/leoee/first-angular-project#readme"
+}
