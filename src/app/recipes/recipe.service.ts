@@ -11,10 +11,20 @@ export class RecipeService {
           [
               new Ingredient('Meat', 1),
               new Ingredient('Chicken', 2)
+          ]),
+          new Recipe('A test recipe', 'This is simply a test',
+          'https://discovery-latam-prod.imgix.net/files/inline-images/TIPS_ARROZ_MEDIDA.JPG',
+          [
+              new Ingredient('Rice', 1),
+              new Ingredient('Beans', 2)
           ])
       ];
 
       getRecipes() {
           return this.recipes.slice();
+      }
+
+      getRecipe(index: number) {
+        return this.recipes[index];
       }
 }
